@@ -1,0 +1,26 @@
+{
+  "name": "App edit7",
+  "description": "",
+  "scopes": [
+    "crm.objects.contacts.read",
+    "crm.objects.contacts.write"
+  ],
+  "public": false,
+  "extensions": {
+    "crm": {
+      "cards": [
+        {
+          "file": "./crm-card.json"
+        },
+        {
+          "file": "./weather-card.json",
+          "version": "1"
+        },
+        {
+          "file": "./weather-card-v2.json",
+          "version": "2"
+        }
+      ]
+    }
+  }
+}

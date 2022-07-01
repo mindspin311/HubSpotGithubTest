@@ -1,0 +1,16 @@
+{
+  "type": "crm-card",
+  "version": "2",
+  "data": {
+    "title": "Current weather (V2)",
+    "fetch": {
+      "targetFunction": "weatherCardSections",
+      "objectTypes": [
+        {
+          "name": "contacts",
+          "propertiesToSend": ["city", "state", "country"]
+        }
+      ]
+    }
+  }
+}

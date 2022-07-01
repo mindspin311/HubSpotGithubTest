@@ -1,0 +1,18 @@
+{
+  "runtime": "nodejs12.x",
+  "version": "1.0",
+  "appFunctions": {
+    "crm-card": {
+      "file": "crm-card.js",
+      "secrets": []
+    },
+    "weatherCard": {
+      "file": "weather.js",
+      "secrets": ["OPENWEATHER_API_KEY"]
+    },
+    "weatherCardSections": {
+      "file": "weather-sections.js",
+      "secrets": ["OPENWEATHER_API_KEY"]
+    }
+  }
+}
