@@ -1,6 +1,6 @@
 {
-  "name": "App edit7",
-  "description": "",
+  "name": "GHI App Test",
+  "description": "Test App for GHI app",
   "scopes": [
     "crm.objects.contacts.read",
     "crm.objects.contacts.write"
